@@ -11,7 +11,7 @@ This repository contains **blank PCI DSS compliance forms** in both Word (`.docx
 
 Forms are organized by PCI DSS section and requirement:
 ```
-Root/
+Forms/
 ├── 3/
 │   ├── 3.2/
 │   │   ├── 3.2.1/
