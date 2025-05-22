@@ -1,0 +1,26 @@
+The PCI DSS 12.3.1 Targeted Risk Analysis Template is designed to help you formally document the reasoning behind your chosen frequencies or approaches for specific security controls - such as how often you patch, review logs, run scans, etc. PCI DSS expects that these decisions are based on risk, not just habit or convenience.
+Document Header
+Title: Identifies the purpose of the document (PCI DSS 12.3.1 compliance).
+Introductory text: Describes the PCI requirement and the reason for this analysis.
+| **Column Name**                           | **What to Put Here**                                                                                                                                                                      |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Asset(s)**                              | What system, application, or hardware you're evaluating (e.g., "Windows 10 workstations", "Domain Controllers", "QuickBooks Server")                                                      |
+| **Threat(s) Being Mitigated**             | What potential attack or failure the PCI control is designed to prevent (e.g., "Ransomware via phishing", "unauthorized remote access", "data loss from unpatched software")              |
+| **Likelihood/Impact Factors**             | What makes this threat more or less likely or impactful for your organization (e.g., "old hardware", "high user turnover", "frequent remote work", "missing endpoint protection")         |
+| **Risk Analysis Summary & Justification** | Your assessment of the risk and why your chosen process is appropriate. For example: “Weekly patching is sufficient because AV is updated daily and remote access is tightly controlled.” |
+| **Defined Frequency or Control**          | What you’ve decided to do, and how often (e.g., “Apply patches monthly”, “Review logs weekly”, “Run vulnerability scans quarterly”)                                                       |
+| **Review Date / Notes**                   | When you last reviewed this risk decision and any notes (e.g., “Reviewed May 2025. Next review May 2026 or upon major system change.”)                                                    |
+
+✍️ Signature Section
+Prepared by: The person completing the analysis.
+
+Title / Role: Their position (e.g., IT Manager, Security Officer).
+
+Date: When the analysis was conducted or last reviewed.
+
+✅ Important Notes for Compliance
+Each control in PCI DSS that allows for flexible implementation (e.g., patching frequency, log review cadence) must be justified using a targeted risk analysis like this.
+
+You must review the analysis at least once per year or after significant changes (new systems, new threats, breaches, etc.).
+
+This document does not replace technical controls - it explains the rationale behind their configuration and schedule.
